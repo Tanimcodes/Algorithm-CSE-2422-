@@ -22,9 +22,9 @@ int main() {
 
     int result = linearSearch(n, arr, target);
     if (result != -1) {
-        cout << " Found at index " << result << "." << endl;
+        cout << "Found at index " << result << "." << endl;
     } else {
-        cout << "Not foundy." << endl;
+        cout << "Not found." << endl;
     }
 
     return 0;
