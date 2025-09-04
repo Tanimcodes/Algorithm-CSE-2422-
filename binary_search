@@ -37,7 +37,7 @@ int main() {
      int result = binarySearch(arr, n, target);
 
     if (result != -1)
-        cout << " Found at index: " << result << endl;
+        cout << "Found at index: " << result << endl;
     else
         cout << "Element not found." << endl;
 
